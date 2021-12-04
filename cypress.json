@@ -1,0 +1,12 @@
+{
+	"video": true,
+	"defaultCommandTimeout": 5000,
+	"pageLoadTimeout": 10000,
+	"baseUrl": "https://www.amazon.com",
+	"ignoreTestFiles": ["*.js", "*.md"],
+	"testFiles": "**/*.feature",
+	"retries": {
+		"runMode": 3,
+		"openMode": 2
+	}
+}

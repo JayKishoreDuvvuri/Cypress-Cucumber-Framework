@@ -1,0 +1,233 @@
+[
+  {
+    "description": "As a user\nI want to launch the Application and click on the gift cards tab\nand select the check box Animation under the section Format\nType in low price and high price as $1 and $100 and hit enter\nSelect first card from the list and navigate to Gift card details page\nSelect Animated button and validate the card designs and size of the cards which are available in standard and Animated categories\nClick on the $100 button on the Amount section under the label 2. Gift card details\nFill in the From, To, Message and Quantity fields and add the product to the cart \nVerify the status code after adding the product to cart",
+    "keyword": "Feature",
+    "name": "Add to Cart",
+    "line": 1,
+    "id": "add-to-cart",
+    "tags": [],
+    "uri": "TC_02_addToCart.feature",
+    "elements": [
+      {
+        "id": "add-to-cart;launch-the-application-to-select-animated-gift-card-and-add-the-product-to-shopping-cart",
+        "keyword": "Scenario",
+        "line": 27,
+        "name": "Launch the Application to select Animated gift card and Add the product to shopping cart",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 14,
+            "name": "I open the application and click on the gift cards tab",
+            "result": {
+              "status": "passed",
+              "duration": 27260000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "I select the check box Animation under Format section",
+            "result": {
+              "status": "passed",
+              "duration": 2390000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "I type in low price and high price as $1 and $100 and hit enter",
+            "result": {
+              "status": "passed",
+              "duration": 2685000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "I click the first card in the list displayed with $1-$2,000",
+            "result": {
+              "status": "passed",
+              "duration": 2215000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "I navigate to gift card details page under the section 1. Gift card design",
+            "result": {
+              "status": "passed",
+              "duration": 19000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "I verify Card Designs are visible and Type $100 in the custom amount field",
+            "result": {
+              "status": "passed",
+              "duration": 558000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "I type email \"test123@test.com\" in To text box and \"TestCustomer\" Name in From text box",
+            "result": {
+              "status": "passed",
+              "duration": 1722000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 21,
+            "name": "I type message \"Enjoy this Amazon Gift Card!\" in Message text box and \"5\" in Quantity text box",
+            "result": {
+              "status": "passed",
+              "duration": 1513000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "I select an avalilable delivery date",
+            "result": {
+              "status": "passed",
+              "duration": 297000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 23,
+            "name": "I click Add to cart button to validate the response code",
+            "result": {
+              "status": "passed",
+              "duration": 3018000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "add-to-cart;launch-the-application-to-select-animated-gift-card-and-add-the-product-to-shopping-cart",
+        "keyword": "Scenario",
+        "line": 28,
+        "name": "Launch the Application to select Animated gift card and Add the product to shopping cart",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 14,
+            "name": "I open the application and click on the gift cards tab",
+            "result": {
+              "status": "passed",
+              "duration": 3161000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "I select the check box Animation under Format section",
+            "result": {
+              "status": "passed",
+              "duration": 2272000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "I type in low price and high price as $1 and $100 and hit enter",
+            "result": {
+              "status": "passed",
+              "duration": 2462000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "I click the first card in the list displayed with $1-$2,000",
+            "result": {
+              "status": "passed",
+              "duration": 2211000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "I navigate to gift card details page under the section 1. Gift card design",
+            "result": {
+              "status": "passed",
+              "duration": 14000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "I verify Card Designs are visible and Type $100 in the custom amount field",
+            "result": {
+              "status": "passed",
+              "duration": 541000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "I type email \"test111@test.com\" in To text box and \"TestAbcXyz\" Name in From text box",
+            "result": {
+              "status": "passed",
+              "duration": 1409000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 21,
+            "name": "I type message \"Enjoy this Beautiful Gift Card!\" in Message text box and \"3\" in Quantity text box",
+            "result": {
+              "status": "passed",
+              "duration": 1483000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "I select an avalilable delivery date",
+            "result": {
+              "status": "passed",
+              "duration": 338000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 23,
+            "name": "I click Add to cart button to validate the response code",
+            "result": {
+              "status": "passed",
+              "duration": 1789000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,44 @@
+{
+	"name": "cy-bdd-tests",
+	"version": "1.0.0",
+	"description": "Cypress with Cucumber BDD Framework",
+	"main": "index.js",
+	"scripts": {
+		"cy:open": "cypress open",
+		"cy:run": "cypress run",
+		"searchproduct-test": "cypress run --spec 'cypress/integration/cucumber-bdd-tests/TC_01_searchProduct.feature' --browser chrome --headless",
+		"addtocart-test": "cypress run --spec 'cypress/integration/cucumber-bdd-tests/TC_02_addToCart.feature' --browser chrome --headless",
+		"cy:run:chrome": "cypress run --browser chrome",
+		"cy:run:firefox": "cypress run --browser firefox",
+		"cy:run:electron": "cypress run --browser electron",
+		"test": "npm run searchproduct-test & npm run addtocart-test & npm run test:chrome:DE && npm run test-report",
+		"test:DE": "npx cypress run --spec 'cypress/integration/cucumber-bdd-tests/TC_03_searchProduct_DE.feature' --config baseUrl=https://www.amazon.de --headed",
+		"test:chrome:DE": "npx cypress run --spec 'cypress/integration/cucumber-bdd-tests/TC_03_searchProduct_DE.feature' --config baseUrl=https://www.amazon.de --browser chrome --headless",
+		"test-report": "node report.js"
+	},
+	"keywords": [
+		"Cypress",
+		"BDD",
+		"Cucumber"
+	],
+	"author": "Jay Kishore Duvvuri",
+	"license": "ISC",
+	"dependencies": {
+		"cucumber-html-reporter": "^5.5.0",
+		"cypress": "^9.1.0",
+		"cypress-cucumber-preprocessor": "^4.3.0",
+		"cypress-xpath": "^1.6.2",
+		"fs-extra": "^9.0.1",
+		"mocha": "^9.1.3",
+		"prettier": "^2.5.0"
+	},
+	"cypress-cucumber-preprocessor": {
+		"step_definitions": "cypress/integration/step_definitions/",
+		"cucumberJson": {
+			"generate": true,
+			"outputFolder": "cucumber_report",
+			"filePrefix": "",
+			"fileSuffix": ".cucumber"
+		}
+	}
+}

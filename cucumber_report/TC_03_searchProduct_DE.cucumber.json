@@ -1,0 +1,93 @@
+[
+  {
+    "description": "As a user\nI want to launch the Application and search for the product Nikon\nand see the sort results in descending order and then select the second product\nfrom the list to see the product details to verify the required product topic contains text as Nikon D3100",
+    "keyword": "Feature",
+    "name": "Search Product for DE",
+    "line": 1,
+    "id": "search-product-for-de",
+    "tags": [],
+    "uri": "TC_03_searchProduct_DE.feature",
+    "elements": [
+      {
+        "id": "search-product-for-de;launch-the-application-and-search-product-for-de",
+        "keyword": "Scenario",
+        "line": 19,
+        "name": "Launch the Application and Search Product for DE",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I open the application and click the cookie for DE page",
+            "result": {
+              "status": "passed",
+              "duration": 11619000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "I type in product name \"Nikon\" in the search bar and click search button",
+            "result": {
+              "status": "passed",
+              "duration": 3787000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "I should see the product list label displayed",
+            "result": {
+              "status": "passed",
+              "duration": 65000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "I select the Price: High to Low from the sort dropdown",
+            "result": {
+              "status": "passed",
+              "duration": 1235000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "I click the second product from the list for the DE webpage",
+            "result": {
+              "status": "passed",
+              "duration": 5769000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "I should see product details page to verify title and verify url",
+            "result": {
+              "status": "passed",
+              "duration": 28000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "I should verify the product topic name contains the required text for DE",
+            "result": {
+              "status": "passed",
+              "duration": 24000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
